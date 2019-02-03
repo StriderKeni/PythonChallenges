@@ -17,3 +17,5 @@ if __name__ == '__main__':
 	d = Differente(a)
 	d.computeDifference()
 	print(d.maximumDifference)
+
+	
