@@ -1,0 +1,38 @@
+abcdefghijklmnopqurtuvwxyz
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+1234567890
+
+Ha HaHa
+
+MetaCharacters (Need to be escaped):
+.[{()\^$|?*+
+
+coreyms.com
+
+
+
+
+321-555-4321
+123.555.1234
+
+Mr. Schafer
+Mr Smith
+Ms Davis
+Mrs. Robinson
+
+
+
+import re
+
+
+4253625879615786
+
+5555555
+
+for _ in range(int(input())):
+    s = input()
+
+    if re.match(r"^[456]([\d]{15}|[\d]{3}(-[\d]{4}){3})$", s) and not re.search(r"([\d])\1\1\1", s.replace("-", "")):
+        print("Valid")
+    else:
+        print("Invalid")
