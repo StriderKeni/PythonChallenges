@@ -1,8 +1,6 @@
-from math import *
-
+import math
 
 ab = float(input())
 bc = float(input())
 
-
-print(str(int(round(degrees(atan(ab/bc)),0)))+'º')
+print(str(int(round(math.degrees(math.atan(ab/bc)), 0)))+'º')
