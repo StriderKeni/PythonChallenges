@@ -1,4 +1,4 @@
-# PythonChallenges
+# Python Challenges and Daily Practice
 
 This is a series of challenges and daily practice problems from https://www.hackerrank.com
 This repository will be updated regularly. If you find a problem in some code please let me know opening an issue. 
